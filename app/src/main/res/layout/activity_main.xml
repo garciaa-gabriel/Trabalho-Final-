@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="190dp"
+        android:text="@string/login"
+        android:fontFamily="@font/iglesia"
+        android:textSize="50sp"
+        android:textColor="?attr/colorAccent"
+        android:id="@+id/login"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text_input"
+        android:inputType="text"
+        android:hint="@string/usuario"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:id="@+id/editUser"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edit_text_input"
+        android:inputType="text"
+        android:hint="@string/senha"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:id="@+id/editpass"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/primaryTextColor"
+        android:text="@string/entrar"
+        android:textAllCaps="false"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/btsend"
+        />
+
+</LinearLayout>
